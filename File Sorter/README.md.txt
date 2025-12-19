@@ -14,15 +14,10 @@ Finally, a cure for the digital landfill that is your Downloads folder.
 ---
 
 ## How It Works
-1. Looks at all files inside the target folder (`sandbox` by default).
+1. Looks at all files inside the target folder (`Downloads` by default).
 2. Splits the filename to get its extension.
 3. Checks the extension against the `categories` dictionary.
 4. Moves the file into the appropriate subfolder using `shutil.move`.
 
 ---
 
-## Setup
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/USERNAME/REPO.git
-   cd REPO
